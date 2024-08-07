@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71313020-a302-4755-becf-7bbd9a7f0299" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/example/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/example/library/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/example/library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/example/library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/example/library/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,7 +44,9 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2kKOWde12p9cL96pgFPswFRTFZp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,6 +64,26 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/de/example/greet" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.example.library.Main" />
+      <module name="Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.example.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

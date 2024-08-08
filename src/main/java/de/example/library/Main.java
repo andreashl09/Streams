@@ -46,46 +46,33 @@ public class Main {
 
 //        library.borrowedBookBack(2024001, "Der Hobbit");
 
-        System.out.print(dottedLine(50));
-        System.out.print(" Alle ausgeliehenen Bücher ");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + " Alle ausgeliehenen Bücher " + dottedLine(50));
         library.ListOfAllBorrowedBooks();
         System.out.println();
 
-        System.out.print(dottedLine(50));
-        System.out.print("Alle verfügbaren Authoren:");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + "Alle verfügbaren Authoren:" + dottedLine(50));
         System.out.println(library.listOfAllAuthorsWithoutDuplicates());
         System.out.println();
 
-        System.out.print(dottedLine(42));
-        System.out.print(" Durchschnittliches Veröffentlichungsjahr ");
-        System.out.println(dottedLine(42));
-        System.out.println(library.averageYearofPublicationOfTheBooks());
+        System.out.println(dottedLine(42) + " Durchschnittliches Veröffentlichungsjahr " +dottedLine(42));
+        System.out.println(library.averageYearOfPublicationOfTheBooks());
         System.out.println();
 
-        System.out.print(dottedLine(50));
+
         Genre genre = Genre.IT;
-        System.out.print(" Alle Bücher des Genre: " + genre + " ");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + " Alle Bücher des Genre: " + genre + " " +dottedLine(50));
         library.allBooksOfSpecificGenre(genre);
         System.out.println();
 
-        System.out.print(dottedLine(50));
-        System.out.print(" Alle ausgeliehenen Bücher ");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + " Alle ausgeliehenen Bücher " +dottedLine(50));
         library.borrowedBooksFromMember(2024001);
         System.out.println();
 
-        System.out.print(dottedLine(50));
-        System.out.print(" Die Top 5 der ausgeliehenen Bücher ");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + " Die Top 5 der ausgeliehenen Bücher " + dottedLine(50));
         library.topFiveBorrowedBooks();
         System.out.println();
 
-        System.out.print(dottedLine(50));
-        System.out.print(" Kategorisierte Bücher ");
-        System.out.println(dottedLine(50));
+        System.out.println(dottedLine(50) + " Kategorisierte Bücher " + dottedLine(50));
         library.categoryTheBooks();
 
 

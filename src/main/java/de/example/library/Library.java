@@ -57,7 +57,7 @@ public class Library {
                 .toList();
     }
 
-    public double averageYearofPublicationOfTheBooks() {
+    public double averageYearOfPublicationOfTheBooks() {
         return this.books.stream()
                 .mapToInt(Book::getPublicationYear)
                 .average()
